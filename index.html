@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cirasis</title>
+<meta name="description" content="Cirasis – an action game for Android by independent developer Marko Miettinen.">
+<style>
+  :root { --ink: #d4e6ed; --muted: #8fa6b0; --accent: #de9733; --panel: #050b10; --border: #2e4f5e; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    color: var(--ink);
+    background: radial-gradient(ellipse at 50% 20%, #13222b 0%, #070c10 60%, #030507 100%);
+  }
+  main {
+    width: min(640px, 92vw); padding: 40px 36px; text-align: center;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 4px;
+  }
+  h1 { margin: 0 0 8px; font-size: 3rem; letter-spacing: 0.18em; font-weight: 600; }
+  .tagline { margin: 0 0 28px; color: var(--muted); }
+  nav { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 28px; }
+  nav a {
+    display: inline-block; padding: 12px 22px; text-decoration: none; color: var(--ink);
+    border: 1px solid var(--border); background: #0a141b;
+  }
+  nav a.primary { border-color: var(--accent); background: #3b240d; }
+  nav a:hover { filter: brightness(1.3); }
+  footer { color: var(--muted); font-size: 0.9rem; }
+  footer a { color: var(--ink); }
+</style>
+</head>
+<body>
+<main>
+  <h1>CIRASIS</h1>
+  <p class="tagline">An action game for Android by independent developer Marko Miettinen.</p>
+  <nav>
+    <a class="primary" href="privacy-policy.html">Privacy Policy</a>
+    <a href="mailto:cirasisgame@gmail.com">Contact</a>
+  </nav>
+  <footer>
+    Questions, feedback or privacy requests: <a href="mailto:cirasisgame@gmail.com">cirasisgame@gmail.com</a><br>
+    © 2026 Marko Miettinen
+  </footer>
+</main>
+</body>
+</html>
